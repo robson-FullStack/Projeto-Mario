@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Mario Bross</title>
+</head>
+
+<body>
+
+    <div class="mascara-formulario" onclick="esconderForm()"></div>
+
+    <header>
+        <div>
+            <img src="./assests/logo.header.jpg" class="logo-header">
+        </div>
+        <a>Home</a>
+
+        <a onclick="showForm()">Fale Conosco</a>
+        <a href="./nossos-servicos.html">Nossos Serviços</a>
+    </header>
+
+    <div class="container">
+
+        <div class="background">
+            <video src="video.mp4" autoplay muted loop class="conteudo-background">
+            </video>
+            <div class="mascara-video"></div>
+        </div>
+
+
+
+        <div class="sobre-nos">
+            <img src="./assests/logo.png" class="logo">
+
+            <p>Encanadores Mario & Luigi - Problemas Hidráulicos Com Estilo!
+                Vazamentos inesperados, canos entupidos que não param de pingar?
+                Não se preocupe, estamos aqui para salvar o dia!
+                Apresentamos a vocês os encanadores Mario e Luigi!</p>
+
+
+            <button onclick="showForm()">fale-conosco</button>
+
+        </div>
+
+        <img src="./assests/mario.png" class="mario">
+                                
+
+        <form class="formulario-fale-conosco" action="https://formcarry.com/s/w1xo2dhoKoG" method="POST"
+            enctype="multipart/form-data">
+            <input placeholder="Seu Nome" type="text" name="Nome">
+            <input placeholder="Telefone" type="cel" name="Telefone">
+            <textarea placeholder="Digite seu problema aqui" type="Duvidas"></textarea>
+            <button type="submit">Pedir Orçamento</button>
+        </form>
+</body>
+
+<script src="./script.js">
+
+</script>
+
+</html>
